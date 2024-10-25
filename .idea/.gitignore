@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/misc.xmls
+/modules.xml
+/vcs.xml
+/out/production/java_tut_1/*.class
+/out/production/java_tut_1/StringDefinition.class
