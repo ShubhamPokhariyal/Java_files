@@ -22,13 +22,9 @@ public class HashMaps {
         System.out.println(scores.containsKey("Lang"));
 
 
-        scores.forEach((key, value)->{
-            System.out.println(key+"-"+value);
-        });
+        scores.forEach((key, value)-> System.out.println(key+"-"+value));
 
-        scores.forEach((key,value)->{
-            scores.replace(key,value-10);
-        });
+        scores.forEach((key,value)-> scores.replace(key,value-10));
         System.out.println(scores);
 
         scores.clear();

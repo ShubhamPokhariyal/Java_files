@@ -25,13 +25,9 @@ public class ArrayLists {
         System.out.println(numbers.contains(5));
         System.out.println(numbers.isEmpty());
 
-        numbers.forEach(number ->{
-            System.out.println(number*2);
-        });
+        numbers.forEach(number -> System.out.println(number*2));
 
-        numbers.forEach(number -> {
-            numbers.set(numbers.indexOf(number),number*2);
-        });
+        numbers.forEach(number -> numbers.set(numbers.indexOf(number),number*2));
         System.out.println(numbers);
 
         numbers.clear();
